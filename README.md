@@ -1,6 +1,6 @@
 # GSoC
 
-Over the past two years I have taken part in GSoC. The readme.md file contains links to each of the repositories which will be continually updated. All the code as was is also contained in the repository.
+Over the past two years I have taken part in GSoC. The README.md file contains links to each of the repositories which will be continually updated. All the code as was is also contained in the repository.
 
 # 2018
 
@@ -20,7 +20,7 @@ The project implements several changes in second order structure algorithms incl
 
 The Locally Stationary Wavelet (LSW) process can capture many dependence structures. Of particular interest in changepoint applications is the fact that a piecewise second order time series will have its structure encoded as piecewise constant sequences in the local wavelet periodogram - a feature noted by Cho and Fryzlewicz (2012). Consequently when using the LSW framework for changepoint methods we do not need to be prescriptive about the structure of the dependence beyond the requirements of the LSW definition. A barrier to the current implementation in wbsts is that the majority of practitioners are familiar with variance and autocorrelation but not necessarily spectral decompositions - let alone time-varying spectra. For this reason we are seeking to implement a method to detect changes in variance and covariance through the non-parametric LSW model instead of a change in spectra.
 
-This years project ended up affecting several dependencies on other projects. The updated repositories can be found:
+This years project ended up affecting several dependencies on other projects. Please read the news within each repository to see exact changes. The updated repositories can be found:
 
 - [changepoint](https://github.com/AndrewC1998/changepoint)
 - [changepoint.np](https://github.com/AndrewC1998/changepoint.np)
